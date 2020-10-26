@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="test">
+    {{msg.name.toUpperCase()}}<br>{{msg.pwd[1]}}<br>${{msg.order*100}}<br>
+    <span v-text="logo">{{msg.name}}</span><br>
+    <span v-html="logo">{{msg.name}}</span><br>
+    <input type="button" value="click me+" v-on:click="add_order">
+    <input type="button" value="click me-" @click="sub_order"><br>
+    <input v-show="show" type="button" value="watch out" @click="send('good test', ['123','321'],'888888')"><br>
+    <span v-if="show">nice test</span><br>
+    <img v-bind:src="src" v_bind:title="picture">
+    <img :src="src" :title="picture"><br>
+    <ul v-for="name in msg">
+        <li>{{msg.name}}</li>
+    </ul>
+    <input type="text" v-model="bind"><br>
+    <span>text:{{bind}}</span>
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+    new Vue({
+        el: "#test",
+        data: {
+            msg: {name: "nice test!", pwd: ["123456", "654321"], order: "1"},
+            logo: "<h1>nice test</h1>",
+            show: true,
+            src: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603251285382&di=4c84634ff7b1e5808b4f52c1cabd6c90&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170217%2F7bab6e7ebd3f479cad481e9104d4ab1d_th.jpg",
+            picture: "picture",
+            bind: " "
+        },
+        methods: {
+            add_order: function () {
+                this.msg.order++
+            },
+            sub_order() {
+                this.msg.order--
+            },
+            send(name, pwd, order) {
+                this.show = false
+                this.msg.name = name
+                this.msg.pwd = pwd
+                this.msg.order = order
+            },
+        },
+    })
+</script>
+</body>
+</html>

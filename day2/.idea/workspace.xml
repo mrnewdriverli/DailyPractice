@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3574fbd7-eed5-46d6-9fdd-b4954dbd7846" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="vue_template" />
+        <option value="HTML File" />
+        <option value="Template" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1j7mu7e3htB2iqj3IOEi0NlXlfh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\05 web进阶\code\day2" />
+      <recent name="E:\05 web进阶\code\day2\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\05 web进阶\code\day2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3574fbd7-eed5-46d6-9fdd-b4954dbd7846" name="Default Changelist" comment="" />
+      <created>1603163724829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603163724829</updated>
+      <workItem from="1603163726669" duration="13977000" />
+      <workItem from="1603244734292" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603178921035">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="363" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1603178921035" />
+    <state x="407" y="33" key="SettingsEditor" timestamp="1603178051486">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="407" y="33" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1603178051486" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1603171988086">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1920.1032@0.0.1920.1032" timestamp="1603171988086" />
+    <state x="437" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1603174717522">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="437" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1603174717522" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="day2" type="b2602c69:ProjectViewProjectNode" />
+        <item name="day2" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>

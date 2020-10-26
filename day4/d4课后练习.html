@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <router-link to="/first">how long</router-link>
+    <router-link to="/second">how much</router-link>
+
+    <router-view></router-view>
+</div>
+<script src="js/vue.min.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script>
+    let first = {
+        template: `
+        <button @click="goPage">jump</button>
+        <div><router-link to="/second?id=3&pwd=123456">five minute</router-link></div>
+
+    `,
+        methods: {
+            goPage() {
+                this.$router.push({path: "/third/1"});
+            }
+        }
+    }
+    let second = {
+        template: `
+        <div>
+          <table border="2">
+            <tr>
+              <td>id</td>
+              <td>pwd</td>
+            </tr>
+            <tr v-for="name in names" :key="name.id">
+              <td>{{ name.id }}</td>
+              <td>{{ name.pwd }}</td>
+            </tr>
+          </table>
+          {{ $route.query.id }}
+          {{ $route.query.pwd }}
+          <div><router-link to="/third/1">third</router-link></div>
+        </div>
+        `,
+        data() {
+            return {
+                names: [
+                    {"id": 1, pwd: "123456"},
+                    {"id": 2, pwd: "123456"},
+                    {"id": 3, pwd: "123456"},
+                ]
+            }
+        }
+    }
+    let third = {
+        template: `
+        <div>{{$route.params.id}}</div>
+    `,
+    }
+    let MyRouter = new VueRouter({
+        routes: [
+            {path: "/first", component: first},
+            {path: "/second", component: second},
+            {path: "/third/:id", component: third},
+            {path: "/", component: first}
+        ]
+    })
+    new Vue({
+        el: app,
+        data: {},
+        router: MyRouter
+    })
+</script>
+</body>
+</html>
